@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/office",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodingMatters\\Office\\Providers\\OfficeServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingMatters\\Office\\": ""
+        }
+    }
+}
